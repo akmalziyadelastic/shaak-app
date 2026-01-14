@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <!-- Optimized for Android Notification Icon (White pixel on Transparent) -->
+    <path d="M256 64L416 128V256C416 344.3 256 448 256 448C256 448 96 344.3 96 256V128L256 64Z"
+        stroke="white" stroke-width="40" fill="none" />
+    <circle cx="256" cy="240" r="30" fill="white" />
+    <rect x="236" y="240" width="40" height="80" rx="10" fill="white" />
+</svg>
