@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f0f13" />
+    <meta name="description" content="SHAAK - The Ultimate Encryption & Decryption Tool" />
+    <title>SHAAK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+    <script type="module" crossorigin src="/assets/index-CRChLXK6.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C8yvVCON.css">
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="logo-container">
+          <img src="/icon.svg" alt="Logo" class="app-logo" />
+          <h1>SHAAK</h1>
+        </div>
+        <p class="subtitle">Secure Offline Encryption</p>
+        <button id="settings-btn" class="icon-btn-header" aria-label="Manage Keys">
+          <span class="icon">⚙️</span>
+        </button>
+      </header>
+
+      <main>
+        <!-- Encryption Section (Always Visible) -->
+        <section class="card" id="crypto-section">
+          <div class="header-row">
+            <h2><span class="icon">🔒</span> Secure Vault</h2>
+            <div class="select-wrapper">
+              <select id="key-select">
+                <option value="" disabled selected>Select a Key</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="editor-container">
+            <div class="input-wrapper">
+              <label>Input Message</label>
+              <textarea id="input-text" placeholder="Type or paste content here..."></textarea>
+              <button id="paste-btn" class="icon-btn" title="Paste" aria-label="Paste">📋</button>
+            </div>
+
+            <div class="actions-row">
+              <button id="encrypt-btn" class="action-btn encrypt">
+                <span class="icon">🔒</span> Encrypt
+              </button>
+              <button id="decrypt-btn" class="action-btn decrypt">
+                <span class="icon">🔓</span> Decrypt
+              </button>
+            </div>
+
+            <div class="input-wrapper result-wrapper">
+              <label>Result</label>
+              <textarea id="output-text" readonly placeholder="Result will appear here..."></textarea>
+              <button id="copy-btn" class="icon-btn" title="Copy" aria-label="Copy">📝</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Key Management Modal (Hidden by default) -->
+        <div id="key-modal" class="modal hidden">
+          <div class="modal-content card">
+            <div class="modal-header">
+              <h2>Settings</h2>
+              <button id="close-modal-btn" class="close-btn">&times;</button>
+            </div>
+
+            <div class="theme-toggle-container">
+              <span>Theme</span>
+              <div class="theme-switcher">
+                <button id="theme-dark" class="theme-btn active" title="Dark Mode">🌙</button>
+                <button id="theme-light" class="theme-btn" title="Light Mode">☀️</button>
+              </div>
+            </div>
+            
+            <h3>My Keys</h3>
+            
+            <div id="key-list" class="key-list">
+              <!-- Keys will be injected here -->
+            </div>
+
+            <div class="add-key-form">
+              <h3>Add New Key</h3>
+              <div class="input-group">
+                <input type="text" id="new-key-alias" placeholder="Key Alias (e.g. 'Work')" autocomplete="off" />
+                <input type="password" id="new-key-value" placeholder="Secret Key Phrase" autocomplete="off" />
+                <button id="add-key-btn" class="ios-btn primary">Save Key</button>
+              </div>
+              <div class="hidden-heart-container">
+                <span class="hidden-heart" title="Love">dedicated to my mother ❤️</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      
+      <footer>
+        <p>Offline Only • Zero Knowledge • Military Grade</p>
+      </footer>
+    </div>
+  </body>
+</html>
