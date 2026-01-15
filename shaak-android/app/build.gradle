@@ -23,7 +23,7 @@ plugins {
 def twaManifest = [
     applicationId: 'app.vercel.shaak_app.twa',
     hostName: 'shaak-app.vercel.app', // The domain being opened in the TWA.
-    launchUrl: 'https://shaak-app.vercel.app', // The start path for the TWA. Must be relative to the domain.
+    launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'SHAAK - Encryption Tool', // The application name.
     launcherName: 'SHAAK', // The name shown on the Android Launcher.
     themeColor: '#0F0F13', // The color used for the status bar.
@@ -57,8 +57,8 @@ android {
         applicationId "app.vercel.shaak_app.twa"
         minSdkVersion 21
         targetSdkVersion 35
-        versionCode 1
-        versionName "1"
+        versionCode 2
+        versionName "2"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name

@@ -26,7 +26,7 @@
     <string name="fullScopeUrl" translatable="false">https://shaak-app.vercel.app/</string>
     <string name="generatorApp" translatable="false">bubblewrap-cli</string>
     <string name="hostName" translatable="false">shaak-app.vercel.app</string>
-    <string name="launchUrl" translatable="false">https://shaak-app.vercel.apphttps://shaak-app.vercel.app</string>
+    <string name="launchUrl" translatable="false">https://shaak-app.vercel.app/</string>
     <string name="launcherName" translatable="false">SHAAK</string>
     <string name="orientation" translatable="false">portrait</string>
     <string name="providerAuthority" translatable="false">app.vercel.shaak_app.twa.fileprovider</string>

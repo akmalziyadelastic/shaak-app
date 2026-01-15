@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "app.vercel.shaak_app.twa",
       "sha256_cert_fingerprints": [
-        "51:99:94:47:68:B8:FB:87:CD:00:84:14:7C:DF:FB:39:F0:2B:13:4B:15:EE:DD:8B:F9:85:09:4E:C6:0F:94:F4"
+        "51:99:94:47:68:B8:FB:87:CD:00:84:14:7C:DF:FB:39:F0:2B:13:4B:15:EE:DD:8B:F9:85:09:4E:C6:0F:94:F4",
+        "49:D8:52:20:2F:0A:33:39:F2:0D:10:86:0A:53:6D:0E:65:A3:F1:EE:D5:EB:EF:14:EA:C4:99:43:FD:F6:D8:85"
       ]
     }
   }

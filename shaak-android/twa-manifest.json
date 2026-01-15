@@ -12,7 +12,7 @@
   "navigationDividerColorDark": "#000000",
   "backgroundColor": "#0F0F13",
   "enableNotifications": true,
-  "startUrl": "https://shaak-app.vercel.app",
+  "startUrl": "/",
   "iconUrl": "https://shaak-app.vercel.app/icon.svg",
   "maskableIconUrl": "https://shaak-app.vercel.app/icon.svg",
   "monochromeIconUrl": "https://shaak-app.vercel.app/monochrome.svg",
@@ -21,8 +21,8 @@
     "path": "/Users/akmalziyad/Elastic/Git/laptop-refresh-elastic-workflow/shaak-app/shaak-android/android.keystore",
     "alias": "android"
   },
-  "appVersionName": "1",
-  "appVersionCode": 1,
+  "appVersionName": "2",
+  "appVersionCode": 2,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://shaak-app.vercel.app/manifest.json",
@@ -44,5 +44,5 @@
   "fileHandlers": [],
   "launchHandlerClientMode": "",
   "displayOverride": [],
-  "appVersion": "1"
+  "appVersion": "2"
 }

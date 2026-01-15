@@ -34,7 +34,7 @@
     <!-- Value from default config. -->
     <string name="hostName" translatable="false">shaak-app.vercel.app</string>
     <!-- Value from default config. -->
-    <string name="launchUrl" translatable="false">https://shaak-app.vercel.apphttps://shaak-app.vercel.app</string>
+    <string name="launchUrl" translatable="false">https://shaak-app.vercel.app/</string>
     <!-- Value from default config. -->
     <string name="launcherName" translatable="false">SHAAK</string>
     <!-- Value from default config. -->
